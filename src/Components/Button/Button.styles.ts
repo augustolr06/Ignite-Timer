@@ -13,12 +13,7 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
 
   height: 40px;
 
-  background-color: ${props => {
-    if (props.variant === "primary") return props.theme.primary;
-    else if (props.variant === "secondary") return props.theme.secondary;
-    else if (props.variant === "neutral") return props.theme.neutral;
-    else return 'unset';
-  }};
+  background-color: blue;
 `
 
 
