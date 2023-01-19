@@ -1,4 +1,4 @@
-import { AppTheme } from "../../@types/styled";
+import { AppTheme } from '../../@types/styled'
 
 export const defaultTheme: AppTheme = {
   white: '#FFF',
@@ -21,7 +21,3 @@ export const defaultTheme: AppTheme = {
 
   yellow_500: '#FBA94C',
 }
-
-
-
-

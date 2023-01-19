@@ -1,5 +1,4 @@
-
-import styled, { css } from "styled-components";
+import styled from 'styled-components'
 
 export type ButtonVariant = 'primary' | 'secondary' | 'neutral'
 
@@ -10,10 +9,7 @@ interface ButtonContainerProps {
 export const ButtonContainer = styled.button<ButtonContainerProps>`
   width: 300px;
 
-
   height: 40px;
 
   background-color: blue;
 `
-
-
