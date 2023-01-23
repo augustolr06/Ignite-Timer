@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${(props) => props.theme.gray_900};
     color: ${(props) => props.theme.gray_300};
+    -webkit-font-smoothing: antialiased;
   }
 
   :focus {
