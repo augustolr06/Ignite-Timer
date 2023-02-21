@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import 'styled-components'
 
 export interface AppTheme {
@@ -24,5 +23,5 @@ export interface AppTheme {
 }
 
 declare module 'styled-components' {
-  export interface DefaultTheme extends AppTheme { }
+  export interface DefaultTheme extends AppTheme {}
 }
