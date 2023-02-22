@@ -72,7 +72,6 @@ const STATUS_COLORS = {
   green: 'green_500',
   yellow: 'yellow_500',
   red: 'red_500',
-  gray: 'gray_500',
 } as const
 
 interface StatusProps {
