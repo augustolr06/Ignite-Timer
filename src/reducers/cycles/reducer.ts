@@ -31,7 +31,7 @@ export function cyclesReducer(state: CyclesState, action: any) {
       if (currentCycleIndex < 0) return state // devolve para o case o estado como está pois não existe um ciclo ativo (embora esse case não vá ser chamado sem que haja um ciclo ativo).
 
       return produce(state, (draft) => {
-        draft.cycles[currentCycleIndex].interruptedDate = new Date()
+        draft.cycles[currentCycleIndex].finishedDate = new Date()
         draft.activeCycleId = null
       })
     }
