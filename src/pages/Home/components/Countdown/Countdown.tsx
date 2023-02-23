@@ -37,7 +37,7 @@ export function Countdown() {
       interval = setInterval(() => {
         const secondsDifference = differenceInSeconds(
           new Date(),
-          activeCycle.startDate,
+          new Date(activeCycle.startDate), // como esse startDate vem do localStorage, ele poderá vir como uma string. Converter o uqe estiver nele para uma data garante que ela seja usada no restante da aplicação de forma correta.
         )
         if (secondsDifference >= totalSeconds) {
           markCurrentCycleAsFinished()
